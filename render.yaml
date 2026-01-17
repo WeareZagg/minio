@@ -1,7 +1,6 @@
 services:
 - type: web
   name: minio-server
-  region: singapore
   plan: starter
   healthCheckPath: /minio/health/live
   runtime: image
