@@ -35,6 +35,7 @@ services:
 
 - type: web
   name: minio-console
+  region: singapore
   runtime: docker
   dockerContext: /
   dockerfilePath: ./Dockerfile
